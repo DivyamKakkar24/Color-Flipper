@@ -1,0 +1,165 @@
+body {
+	background-color: #F1f5f8;
+}
+
+#header-nav {
+	background-color: #ffffff;
+	color: #6599ff;
+	border: 0;
+	border-radius: 0;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: 0.25rem;
+	
+}
+
+h1 {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+h4 {
+	font-weight: bold;
+	/*line-height: 1.5;*/
+	margin-bottom: 0.75rem;
+}
+
+.container-nav {
+	width: 45vw;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.nav-links {
+	display: flex;
+	margin-top: 5px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+nav a {
+	margin-right: 1rem;
+	color: black;
+}
+
+a:hover {
+	color: #6599ff;
+	text-decoration: none;
+}
+
+div {
+	display: block;
+}
+
+.main {
+	text-align: center;
+}
+
+.container-1 {
+	margin: 200px auto 40px;
+	padding: 3px;
+	background-color: black;
+	color: white;
+	width: 55%;
+	border-radius: 8px;
+	text-align: center;
+}
+
+.container-1 h1 {
+	font-weight: bold;
+	letter-spacing: 0.25rem;
+}
+
+.color {
+	color: hsl(205deg 78% 60%);
+}
+
+.btn {
+	background: transparent;
+	border: 2px solid black;
+	color: black;
+	letter-spacing: 0.30rem;
+	-webkit-transition: background 0.5s;
+}
+
+.btn:hover {
+	background: black;
+	color: white;
+	-webkit-transition: background 0.5s;
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+	.container-nav {
+		width: 55vw;
+		margin: 0 auto;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	.container-1 {
+		width: 60%;
+	}
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+	.container-nav {
+		width: 65vw;
+		margin: 0 auto;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	.container-1 {
+		width: 70%;
+	}
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+	.container-nav {
+		width: 75vw;
+		margin: 0 auto;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+	.container-nav h4 {
+		font-size: 14px;
+		letter-spacing: 0.40rem;
+	}
+	.nav-links {
+		display: flex;
+		margin-top: 10px;
+	}
+
+	.container-1 {
+		width: 90%;
+	}
+
+	.main h1 {
+		font-size: 30px;
+	}
+}
+
+/********** Super small devices only **********/
+@media (max-width: 360px) {
+	.container-1 {
+		width: 100%;
+	}
+}
+
+/********** Ultra small devices only **********/
+@media (max-width: 320px) {
+	.container-nav {
+		width: 85vw;	
+	}
+
+}
