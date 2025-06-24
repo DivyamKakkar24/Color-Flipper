@@ -78,6 +78,11 @@ div {
 	color: hsl(205deg 78% 60%);
 }
 
+.button-container {
+  display: flex;
+  justify-content: space-around;
+}
+
 .btn {
 	background: transparent;
 	border: 2px solid black;
